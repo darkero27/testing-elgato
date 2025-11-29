@@ -1,0 +1,5 @@
+<svg width="20" height="200" viewBox="0 0 20 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g mask="url(#slider)">
+<rect y="200" width="200" height="20" rx="4" transform="rotate(-90 0 200)" fill="#9E9E9E"/>
+</g>
+</svg>

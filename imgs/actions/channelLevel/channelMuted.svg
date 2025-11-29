@@ -1,0 +1,15 @@
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="paint0_radial_195_50397" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(72 72) rotate(49.2296) scale(110.255 127.014)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0.1"/>
+</radialGradient>
+</defs>
+<rect width="144" height="144" rx="16" fill="#C90000" fill-opacity="0.8"/>
+<rect width="144" height="144" rx="16" fill="url(#paint0_radial_195_50397)" fill-opacity="0.5"/>
+<rect x="16" y="16" width="112" height="112" rx="8" fill="black"/>
+<image/>
+<path d="M46.957 109.333H49.1277V98.7295H47.2797C46.3557 99.5948 45.7397 100.02 44.5517 100.431V102.235C45.417 101.927 46.2677 101.472 46.957 100.841V109.333Z" fill="#C02335"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.5 94.6667C35.5 93.1939 36.6939 92 38.1667 92H56.8333C58.3061 92 59.5 93.1939 59.5 94.6667V113.333C59.5 114.806 58.3061 116 56.8333 116H38.1667C36.6939 116 35.5 114.806 35.5 113.333V94.6667ZM38.1667 94H56.8333C57.2015 94 57.5 94.2985 57.5 94.6667V113.333C57.5 113.702 57.2015 114 56.8333 114H38.1667C37.7985 114 37.5 113.702 37.5 113.333V94.6667C37.5 94.2985 37.7985 94 38.1667 94Z" fill="#C02335"/>
+<text/>
+</svg>

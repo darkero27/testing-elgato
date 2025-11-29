@@ -1,0 +1,18 @@
+<svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 2C0 0.89543 0.895431 0 2 0L46 0C47.1046 0 48 0.89543 48 2V22C48 23.1046 47.1046 24 46 24L2 24C0.895432 24 0 23.1046 0 22L0 2Z" fill="url(#paint0_linear_658_41)"/>
+<rect x="4" y="6" width="40" height="12" fill="#F6F6F6"/>
+<path d="M46 24L44 18L44 6.00001L46.5 5.66399e-06C47.3284 1.83006e-06 48 0.671574 48 1.5L48 2L48 22C48 23.1046 47.1046 24 46 24Z" fill="#9E9E9E"/>
+<path d="M1.46005e-05 22L1.33229e-05 2C1.33015e-05 0.895432 0.895446 -2.07936e-08 2.00002 -4.64435e-08L4.00002 6L4.00002 18L2.00002 24C0.895446 24 1.49641e-05 23.1046 1.46005e-05 22Z" fill="#9E9E9E"/>
+<rect x="8" y="11" width="32" height="2" rx="0.999998" fill="#434343"/>
+<rect x="8" y="11" width="32" height="2" rx="0.999998" fill="url(#paint1_radial_658_41)" fill-opacity="0.04"/>
+<defs>
+<linearGradient id="paint0_linear_658_41" x1="24" y1="24" x2="24" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C8C8C8"/>
+<stop offset="1" stop-color="#DBDBDB"/>
+</linearGradient>
+<radialGradient id="paint1_radial_658_41" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24 12) rotate(90) scale(0.999998 16)">
+<stop stop-opacity="0"/>
+<stop offset="1" stop-color="white"/>
+</radialGradient>
+</defs>
+</svg>

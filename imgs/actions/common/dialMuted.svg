@@ -1,0 +1,23 @@
+<svg width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paint4_linear_195_164146" x1="100" y1="100" x2="100" y2="76" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C02335"/>
+<stop offset="1" stop-color="#4F4F4F" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint5_linear_195_164146" x1="300" y1="200" x2="300" y2="176" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C02335"/>
+<stop offset="1" stop-color="#4F4F4F" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M158.667 69.3333L164.391 75.0571C165.231 75.8971 166.667 75.3022 166.667 74.1143V53.8856C166.667 52.6977 165.231 52.1028 164.391 52.9428L158.667 58.6666H156C154.527 58.6666 153.333 59.8605 153.333 61.3333V66.6666C153.333 68.1394 154.527 69.3333 156 69.3333H158.667ZM156 67.3333H159.495L164.667 72.5049V55.495L159.495 60.6666H156C155.632 60.6666 155.333 60.9651 155.333 61.3333V66.6666C155.333 67.0348 155.632 67.3333 156 67.3333Z" fill="#C02335"/>
+<path d="M170.96 67.6263C170.569 68.0168 170.569 68.65 170.96 69.0405C171.35 69.431 171.983 69.431 172.374 69.0405L176 65.4143L179.626 69.0405C180.017 69.431 180.65 69.431 181.04 69.0405C181.431 68.65 181.431 68.0168 181.04 67.6263L177.414 64.0001L181.04 60.3739C181.431 59.9833 181.431 59.3502 181.04 58.9596C180.65 58.5691 180.017 58.5691 179.626 58.9596L176 62.5859L172.374 58.9596C171.983 58.5691 171.35 58.5691 170.96 58.9596C170.569 59.3502 170.569 59.9833 170.96 60.3739L174.586 64.0001L170.96 67.6263Z" fill="#C02335"/>
+<mask id="path-12-inside-2_195_164146" fill="white">
+<rect width="200" height="100" rx="16"/>
+</mask>
+<rect width="200" height="100" rx="16" stroke="url(#paint4_linear_195_164146)" stroke-width="48" mask="url(#path-12-inside-2_195_164146)"/>
+<mask id="path-13-inside-3_195_164146" fill="white">
+<rect x="200" y="100" width="200" height="100" rx="16" transform="rotate(0 200 100)"/>
+</mask>
+<rect x="200" y="100" width="200" height="100" rx="16" transform="rotate(-180 200 100)" stroke="url(#paint5_linear_195_164146)" stroke-width="48" mask="url(#path-13-inside-3_195_164146)"/>
+<rect x="2" y="2" width="196" height="96" rx="14" fill="black" fill-opacity="0.1" stroke="#C02335" stroke-width="4"/>
+</svg>

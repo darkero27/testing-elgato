@@ -1,0 +1,95 @@
+{
+    "id": "com.elgato.wave-link.channellevelmeterhorizontal",
+    "items": [
+        {
+            "key": "backgroundLeft",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/backgroundLeft.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "backgroundRight",
+            "type": "img",
+            "rect": [144, 0, 144, 144],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/backgroundRight.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "sliderBackground",
+            "type": "img",
+            "rect": [24, 74, 240, 20],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/sliderBackground.svg",
+            "zOrder": 10
+        },
+        {
+            "key": "slider",
+            "type": "img",
+            "rect": [24, 74, 240, 20],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/slider.svg",
+            "zOrder": 11
+        },
+        {
+            "key": "sliderMask",
+            "type": "svg",
+            "rect": [24, 74, 240, 20],
+            "value": "",
+            "zOrder": 12
+        },
+        {
+            "key": "handle",
+            "type": "img",
+            "rect": [18, 60, 24, 48],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/handle.svg",
+            "zOrder": 13
+        },
+        {
+            "key": "levelMeterBackground",
+            "type": "img",
+            "rect": [24, 116, 240, 12],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/levelMeterBackground.svg",
+            "zOrder": 20
+        },
+        {
+            "key": "levelMeter",
+            "type": "img",
+            "rect": [24, 116, 240, 12],
+            "value": "./imgs/actions/common/faderAndLevelMeter/horizontal/levelMeter.svg",
+            "zOrder": 21
+        },
+        {
+            "key": "levelMeterMask",
+            "type": "svg",
+            "rect": [83, 24, 20, 200],
+            "value": "",
+            "zOrder": 22
+        },
+        {
+            "key": "icon",
+            "type": "img",
+            "rect": [16, 16, 32, 32],
+            "value": "100%",
+            "zOrder": 20
+        },
+        {
+            "key": "iconMix",
+            "type": "img",
+            "rect": [240, 16, 32, 32],
+            "zOrder": 30
+        },
+        {
+            "key": "title",
+            "type": "text",
+            "rect": [56, 26, 176, 20],
+            "value": "--",
+            "fontAnchor": "start",
+            "zOrder": 40
+        },
+        {
+            "key": "number",
+            "type": "img",
+            "rect": [50, 20, 24, 25],
+            "zOrder": 31
+        }
+    ]
+}

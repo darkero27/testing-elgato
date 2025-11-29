@@ -1,0 +1,54 @@
+{
+    "id": "com.elgato.wave-link.mixslidervertical",
+    "items": [
+        {
+            "key": "backgroundTop",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/backgroundTop.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "backgroundBottom",
+            "type": "img",
+            "rect": [0, 144, 144, 144],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/backgroundBottom.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "sliderBackground",
+            "type": "img",
+            "rect": [62, 24, 20, 200],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/sliderBackground.svg",
+            "zOrder": 10
+        },
+        {
+            "key": "slider",
+            "type": "img",
+            "rect": [62, 24, 20, 200],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/slider.svg",
+            "zOrder": 11
+        },
+        {
+            "key": "sliderMask",
+            "type": "svg",
+            "rect": [62, 24, 20, 200],
+            "value": "",
+            "zOrder": 12
+        },
+        {
+            "key": "handle",
+            "type": "img",
+            "rect": [48, 18, 48, 24],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/handle.svg",
+            "zOrder": 13
+        },
+        {
+            "key": "icon",
+            "type": "img",
+            "rect": [56, 240, 32, 32],
+            "value": "100%",
+            "zOrder": 30
+        }
+    ]
+}

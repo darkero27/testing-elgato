@@ -1,0 +1,87 @@
+{
+    "id": "com.elgato.wave-link.controlActionMultiApps",
+    "items": [
+        {
+            "key": "background",
+            "type": "pixmap",
+            "rect": [0, 0, 200, 100],
+            "zOrder": 0,
+            "value": "./imgs/actions/common/dialBackground.svg"
+        },
+        {
+            "key": "title",
+            "type": "text",
+            "rect": [48, 12, 71, 24],
+            "font": { "size": 17, "weight": 700 },
+            "alignment": "left",
+            "zOrder": 10
+        },
+        {
+            "key": "image",
+            "type": "pixmap",
+            "rect": [0, 0, 200, 100],
+            "zOrder": 15
+        },
+        {
+            "key": "icon",
+            "type": "pixmap",
+            "rect": [16, 12, 24, 24],
+            "zOrder": 20,
+            "value": "./imgs/actions/channelLevel/icon.svg"
+        },
+        {
+            "key": "number",
+            "type": "pixmap",
+            "rect": [127, 12, 24, 24],
+            "zOrder": 21,
+            "value": "./imgs/actions/channelLevel/icon.svg",
+            "enabled": false
+        },
+        {
+            "key": "indicator",
+            "type": "pixmap",
+            "rect": [23, 48, 116, 39],
+            "zOrder": 30,
+            "value": "./imgs/actions/common/indicator.svg"
+        },
+        {
+            "key": "dial",
+            "type": "pixmap",
+            "rect": [32, 64, 98, 36],
+            "zOrder": 31,
+            "value": "./imgs/actions/common/dial.svg"
+        },
+        {
+            "key": "iconSmall",
+            "type": "pixmap",
+            "rect": [160, 12, 24, 24],
+            "zOrder": 32,
+            "value": "./imgs/actions/mixLevel/icons/all.svg"
+        },
+        {
+            "key": "value",
+            "type": "text",
+            "rect": [142, 48, 42, 24],
+            "font": { "size": 24, "weight": 700 },
+            "alignment": "right",
+            "zOrder": 33
+        },
+        {
+            "key": "unit",
+            "type": "text",
+            "rect": [148, 72, 36, 14],
+            "font": { "size": 14, "weight": 700 },
+            "alignment": "right",
+            "zOrder": 34,
+            "enabled": false,
+            "value": "%"
+        },
+        {
+            "key": "muteOverlay",
+            "type": "pixmap",
+            "rect": [0, 0, 200, 100],
+            "zOrder": 50,
+            "value": "./imgs/actions/common/dialMuted.svg"
+        }
+    ]
+}

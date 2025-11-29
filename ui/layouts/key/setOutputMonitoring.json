@@ -1,0 +1,32 @@
+{
+    "id": "com.elgato.wave-link.setoutputtomix",
+    "items": [
+        {
+            "key": "background",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/keyBackground.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "icon",
+            "type": "img",
+            "rect": [44, 26.5, 56, 56],
+            "value": "./imgs/actions/setOutputToMix/ear.svg",
+            "zOrder": 20
+        },
+        {
+            "key": "modifier",
+            "type": "img",
+            "rect": [67.67, 52.17, 31, 31],
+            "value": "./imgs/actions/common/modifier/set.svg",
+            "zOrder": 21
+        },
+        {
+            "key": "iconMix",
+            "type": "img",
+            "rect": [56, 88, 32, 32],
+            "zOrder": 30
+        }
+    ]
+}

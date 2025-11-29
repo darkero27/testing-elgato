@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Mix Level Settings</title>
+        <meta charset="utf-8" />
+        <script src="../common/index.js" type="module"></script>
+        <script src="index.js" type="module"></script>
+    </head>
+
+    <body>
+        <sd-visible-when global="true" setting="showBanner" equals="true">
+            <sd-banner id="infoBanner" header="Warning" variant="warning"></sd-banner>
+        </sd-visible-when>
+
+        <sd-visible-when global="true" setting="showBanner" equals="false">
+            <sd-field label="Mix">
+                <sd-select setting="mixId" list="mixes"/>
+                <sd-plugin-data-list id="mixes" name="Mixes"/>
+            </sd-field>
+
+            <sd-field label="Type" id="actionSubtypeField">
+                <sd-radio-group setting="actionSubtype">
+                    <sd-radio-button value="Toggle">Mute</sd-radio-button>
+                    <sd-radio-button value="Set">Set</sd-radio-button>
+                    <sd-radio-button value="Adjust">Adjust</sd-radio-button>
+                </sd-radio-group>
+            </sd-field>
+
+            <sd-visible-when setting="actionSubtype" equals="Toggle">
+                <sd-field label="State" id="multiActionStateField">
+                    <sd-select setting="multiActionState" />
+                    <sd-option value='-1' type='number'>Toggle</sd-option>
+                    <sd-option value='0' type='number'>Unmuted</sd-option>
+                    <sd-option value='1' type='number'>Mute</sd-option>
+                </sd-field>
+            </sd-visible-when>
+
+            <sd-visible-when setting="actionSubtype" equals="Set">
+                <sd-field label="Set">
+                    <sd-range id="setValue" setting="setValue" min="0" max="100" step="1">
+                        <span slot="min">0%</span>
+                        <span slot="max">100%</span>
+                    </sd-range>
+                </sd-field>
+            </sd-visible-when>
+
+            <sd-visible-when setting="actionSubtype" equals="Adjust">
+                <sd-field label="Adjust" id="adjustKeyField">
+                    <sd-range id="adjustKey" setting="adjustValue" min="-9" max="10" step="1">
+                        <span slot="min">-10%</span>
+                        <span slot="max">10%</span>
+                    </sd-range>
+                </sd-field>
+
+                <sd-field label="Adjust" id="adjustDialField">
+                    <sd-range id="adjustDial" setting="adjustValue" min="1" max="5" step="1">
+                        <span slot="min">1%</span>
+                        <span slot="max">5%</span>
+                    </sd-range>
+                </sd-field>
+            </sd-visible-when>
+
+            <sd-visible-when setting="actionSubtype" equals="Adjust">
+                <sd-field label="Style" id="actionStyleKeyField">
+                    <sd-select setting="actionStyle"/>
+                    <sd-option value='Static'>Static</sd-option>
+                    <sd-option value='SliderHorizontal'>Fader (horizontal)</sd-option>
+                    <sd-option value='SliderVertical'>Fader (vertical)</sd-option>
+                    <sd-option value='SliderAndLevelmeterHorizontal'>Fader + Level meter (horizontal)</sd-option>
+                    <sd-option value='SliderAndLevelmeterVertical'>Fader + Level meter (vertical)</sd-option>
+                </sd-field>
+
+                <sd-field label="Style" id="actionStyleDialField">
+                    <sd-select setting="actionStyle"/>
+                    <sd-option value='SliderAndLevelmeterHorizontal'>Level meter + Volume slider</sd-option>
+                    <sd-option value='LevelmeterHorizontal'>Level meter</sd-option>
+                    <sd-option value='SliderHorizontal'>Volume slider</sd-option>
+                </sd-field>
+            </sd-visible-when>
+        </sd-visible-when>
+    </body>
+</html>

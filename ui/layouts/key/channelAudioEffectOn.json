@@ -1,0 +1,32 @@
+{
+    "id": "com.elgato.wave-link.channelaudioeffecton",
+    "items": [
+        {
+            "key": "background",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/keyBackgroundUnmuted.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "title",
+            "type": "text",
+            "rect": [16, 96.5, 112, 20],
+            "value": "--",
+            "zOrder": 10
+        },
+        {
+            "key": "icon",
+            "type": "img",
+            "rect": [47, 30, 50, 50],
+            "zOrder": 20
+        },
+        {
+            "key": "number",
+            "type": "img",
+            "rect": [89.5, 42, 25, 24],
+            "zOrder": 22,
+            "isEnabled": false
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "Actions": [
+        {
+            "UUID": "com.elgato.wave-link.wavecontrol",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.controlaction"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.controlaction"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.gainlock",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.audioeffecton"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.audioeffectoff"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.audioeffect",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.audioeffecton"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.audioeffectoff"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.channellevel",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.channellevel"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.channellevel"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.channelaudioeffect",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.channelaudioeffecton"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.channelaudioeffectoff"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.addtochannel",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.addToChannel"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.addToChannelchecked"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.mixlevel",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.controlaction"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.controlaction"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.setoutputtomix",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.setoutputtomix"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.setoutputtomix"
+                }
+            ]
+        },
+        {
+            "UUID": "com.elgato.wave-link.outputcontrol",
+            "States": [
+                {
+                    "Layout": "com.elgato.wave-link.controlaction"
+                },
+                {
+                    "Layout": "com.elgato.wave-link.controlaction"
+                }
+            ]
+        }
+    ]
+}

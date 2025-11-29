@@ -1,0 +1,50 @@
+{
+    "id": "com.elgato.wave-link.controlaction",
+    "items": [
+        {
+            "key": "background",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/keyBackground.svg",
+            "zOrder": 0,
+            "isEnabled": false
+        },
+        {
+            "key": "backgroundUnmuted",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/keyBackgroundUnmuted.svg",
+            "zOrder": 1,
+            "isEnabled": false
+        },
+        {
+            "key": "backgroundMuted",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/keyBackgroundMuted.svg",
+            "zOrder": 2,
+            "isEnabled": false
+        },
+        {
+            "key": "icon",
+            "type": "img",
+            "rect": [44, 30, 56, 56],
+            "zOrder": 20
+        },
+        {
+            "key": "modifier",
+            "type": "img",
+            "rect": [70, 56, 30, 30],
+            "value": "./imgs/actions/common/modifier/set.svg",
+            "zOrder": 22,
+            "isEnabled": false
+        },
+        {
+            "key": "value",
+            "type": "text",
+            "rect": [46, 95, 52, 20],
+            "value": "--",
+            "zOrder": 30
+        }
+    ]
+}

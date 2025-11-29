@@ -1,0 +1,87 @@
+{
+    "id": "com.elgato.wave-link.channellevelmetervertical",
+    "items": [
+        {
+            "key": "backgroundTop",
+            "type": "img",
+            "rect": [0, 0, 144, 144],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/backgroundTop.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "backgroundBottom",
+            "type": "img",
+            "rect": [0, 144, 144, 144],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/backgroundBottom.svg",
+            "zOrder": 0
+        },
+        {
+            "key": "sliderBackground",
+            "type": "img",
+            "rect": [41, 24, 20, 200],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/sliderBackground.svg",
+            "zOrder": 10
+        },
+        {
+            "key": "slider",
+            "type": "img",
+            "rect": [41, 24, 20, 200],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/slider.svg",
+            "zOrder": 11
+        },
+        {
+            "key": "sliderMask",
+            "type": "svg",
+            "rect": [41, 24, 20, 200],
+            "value": "",
+            "zOrder": 12
+        },
+        {
+            "key": "handle",
+            "type": "img",
+            "rect": [27, 18, 48, 24],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/handle.svg",
+            "zOrder": 13
+        },
+        {
+            "key": "levelMeterBackground",
+            "type": "img",
+            "rect": [83, 24, 20, 200],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/levelMeterBackground.svg",
+            "zOrder": 20
+        },
+        {
+            "key": "levelMeter",
+            "type": "img",
+            "rect": [83, 24, 20, 200],
+            "value": "./imgs/actions/common/faderAndLevelMeter/vertical/levelMeter.svg",
+            "zOrder": 21
+        },
+        {
+            "key": "levelMeterMask",
+            "type": "svg",
+            "rect": [83, 24, 20, 200],
+            "value": "",
+            "zOrder": 22
+        },
+        {
+            "key": "icon",
+            "type": "img",
+            "rect": [34, 240, 32, 32],
+            "value": "100%",
+            "zOrder": 30
+        },
+        {
+            "key": "iconMix",
+            "type": "img",
+            "rect": [78, 240, 32, 32],
+            "zOrder": 31
+        },
+        {
+            "key": "number",
+            "type": "img",
+            "rect": [56.5, 244, 24, 25],
+            "zOrder": 32
+        }
+    ]
+}

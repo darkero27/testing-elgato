@@ -1,0 +1,73 @@
+{
+    "id": "com.elgato.wave-link.waveControl",
+    "items": [
+      {
+        "key": "background",
+        "type": "pixmap",
+        "rect": [0, 0, 200, 100],
+        "zOrder": 0,
+        "value": "./imgs/actions/common/dialBackground.svg"
+      },
+      {
+        "key": "image",
+        "type": "pixmap",
+        "rect": [0, 0, 200, 100],
+        "zOrder": 15
+      },
+      {
+        "key": "icon",
+        "type": "pixmap",
+        "rect": [16, 12, 24, 24],
+        "zOrder": 10
+      },
+      {
+        "key": "indicator",
+        "type": "pixmap",
+        "rect": [23, 48, 116, 39],
+        "zOrder": 11,
+        "value": "./imgs/actions/common/indicator.svg"
+      },
+      {
+        "key": "dial",
+        "type": "pixmap",
+        "rect": [32, 64, 98, 36],
+        "zOrder": 10,
+        "value": "./imgs/actions/common/dial.svg"
+      },
+      {
+        "key": "title",
+        "type": "text",
+        "rect": [48, 12, 136, 24],
+        "font": { "size": 17, "weight": 700 },
+        "alignment": "left",
+        "zOrder": 11,
+        "value": "Wave"
+      },
+      {
+        "key": "value",
+        "type": "text",
+        "rect": [142, 48, 42, 24],
+        "font": { "size": 24, "weight": 700 },
+        "alignment": "right",
+        "zOrder": 12,
+        "value": "0"
+      },
+      {
+        "key": "unit",
+        "type": "text",
+        "rect": [148, 72, 36, 14],
+        "font": { "size": 14, "weight": 700 },
+        "alignment": "right",
+        "zOrder": 13,
+        "enabled": false,
+        "value": "dB"
+      },
+      {
+        "key": "muteOverlay",
+        "type": "pixmap",
+        "rect": [0, 0, 200, 100],
+        "zOrder": 100,
+        "value": "./imgs/actions/common/dialMuted.svg"
+      }
+    ]
+}

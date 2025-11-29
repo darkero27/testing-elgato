@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Add to Channel Settings</title>
+        <meta charset="utf-8" />
+        <script src="../common/index.js" type="module"></script>
+        <script src="index.js" type="module"></script>
+    </head>
+
+    <body>
+        <sd-visible-when global="true" setting="showBanner" equals="true">
+            <sd-banner id="infoBanner" header="Warning" variant="warning"></sd-banner>
+        </sd-visible-when>
+
+        <sd-visible-when global="true" setting="showBanner" equals="false">
+            <sd-field label="Channel">
+                <sd-select setting="channelId" list="channels"/>
+                <sd-plugin-data-list id="channels" name="SoftwareChannels"/>
+            </sd-field>
+        </sd-visible-when>
+    </body>
+</html>

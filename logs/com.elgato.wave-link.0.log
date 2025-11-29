@@ -1,0 +1,11 @@
+2025-11-29T16:17:46.107Z INFO  Wave Link found on system.
+2025-11-29T16:17:46.112Z INFO  Wave link 3 Plugin
+2025-11-29T16:17:46.113Z INFO  --------------------------------------------------------------------
+2025-11-29T16:17:46.113Z INFO  Plugin version:       3.0.0.95
+2025-11-29T16:17:46.113Z INFO  Stream Deck version:  7.0.2.22062
+2025-11-29T16:17:46.113Z INFO  Platform:             windows
+2025-11-29T16:17:46.113Z INFO  Platform version:     10.0.26100
+2025-11-29T16:17:46.114Z INFO  --------------------------------------------------------------------
+2025-11-29T16:17:46.202Z INFO  Application did launch: Elgato.WaveLink.exe
+2025-11-29T16:17:47.216Z INFO  Trying to connect to Wave Link
+2025-11-29T16:17:47.229Z INFO  Connected on 1884
